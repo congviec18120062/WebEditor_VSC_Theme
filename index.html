@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Web editor with VSC theme | How to make web in web</title>
+</head>
+<body>
+  <header class="flex-container">
+    <div class="header-logo"></div>
+    <div class="header-menu flex-container">
+      <div class="header-menu_selector" id="file">File</div>
+      <div class="header-menu_selector" id="edit">Edit</div>
+    </div>
+    <div class="header-menu_selector header-name-file" id="nameFile">index.html - WebEditor_VSC_Theme</div>
+  </header>
+  <div class="main flex-container">
+    <aside class="flex-container">
+      <div class="aside-selector" id="explorer"></div>
+      <div class="aside-selector" id="search"></div>
+      <div class="aside-selector" id="source control"></div>
+      <div class="aside-selector" id="extension"></div>
+    </aside>
+    <div class="aside-panel flex-container">
+      <div class="aside-panel-title">EXPLORER</div>
+      <ul class="aside-panel_option">
+        <li class="aside-panel_title"><img src="img/right-arrow.svg" class="arrow-right" alt="right arrow">OPEN EDITOR
+          <ul class="nested file exist">
+            <li class="choiced"><img src="img/cross-out.svg" class="file-icon_exist close-file" alt="exist"><img src="img/html.svg" class="file-icon" alt="html"> index.html</li>
+            <li><img src="img/cross-out.svg" class="file-icon_exist close-file" alt="exist"><img src="img/css.svg" class="file-icon" alt="css"> style.css</li>
+            <li><img src="img/cross-out.svg" class="file-icon_exist close-file" alt="exist"><img src="img/js.svg" class="file-icon" alt="js"> index.js</li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="aside-panel_option">
+        <li class="aside-panel_title"><img src="img/right-arrow.svg" class="arrow-right" alt="right arrow">WEBEDITOR_VSC
+          <ul class="nested file">
+            <li><img src="img/html.svg" class="file-icon" alt="html"> index.html</li>
+            <li><img src="img/css.svg" class="file-icon" alt="css"> style.css</li>
+            <li><img src="img/js.svg" class="file-icon" alt="js"> index.js</li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="aside-panel_option">
+          <li class="aside-panel_title"><img src="img/right-arrow.svg" class="arrow-right" alt="right arrow">OUTLINE</li>
+      </ul>
+    </div>
+    <div class="main-editor ">
+      <div class="tab flex-container">
+        <div class="tab-file choiced" id="html"><img src="img/html.svg" class="file-icon" alt="html"> index.html <img src="img/cross-out.svg" class="file-icon_exist close-file" alt="exist"></div>
+        <div class="tab-file" id="css"><img src="img/css.svg" class="file-icon" alt="css"> style.css <img src="img/cross-out.svg" class="file-icon_exist close-file" alt="exist"></div>
+        <div class="tab-file" id="js"><img src="img/js.svg" class="file-icon" alt="js"> index.js <img src="img/cross-out.svg" class="file-icon_exist close-file" alt="exist"></div>
+      </div>
+    </div>
+    
+  </div>
+</body>
+</html>
